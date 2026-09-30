@@ -1,0 +1,29 @@
+# Python virtual environments & bytecode
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+source_code/backend/venv/
+source_code/backend/.env
+
+# Node & Next.js
+node_modules/
+source_code/frontend/node_modules/
+source_code/frontend/.next/
+source_code/frontend/out/
+source_code/frontend/build/
+source_code/frontend/.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
